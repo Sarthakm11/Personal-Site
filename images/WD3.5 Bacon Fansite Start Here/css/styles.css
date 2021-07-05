@@ -1,0 +1,68 @@
+/************tag selectors**********/
+body{
+
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/01/12/18/bread-2564927_1280.jpg);
+  border-style: dotted;
+  border-width: 15px;
+  border-spacing: 2px;
+  border-color: red ;
+  animation:5s infinite #FFD8CC;
+
+
+}
+h1{
+
+  color: white;
+  font-size: 100px;
+  font-style: oblique;
+  font-family:monospace;
+  text-shadow: 4px 4px 15px #FC92E3;
+  text-align: center;
+
+
+}
+
+img{
+  background-image:url(https://cdn.pixabay.com/photo/2017/08/01/12/18/bread-2564927_1280.jpg);
+  border-radius: 125px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 70%;
+  height: auto;
+}
+p{
+  color: #FC92E3;
+  font-family:cursive;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 3px 3px 5px #3EDBF0;
+  width: auto;
+
+}
+
+/******************class selectors******************/
+.lefty{
+  text-align: left;
+}
+
+.central{
+  text-align: center;
+}
+
+.righty{
+    text-align: right;
+}
+
+.writing{
+  font-family:fantasy;
+}
+/****************id selector*******************/
+#heading{
+color: #3EDBF0;
+}
+
+h1:hover{
+  background-color:  gold;
+}
