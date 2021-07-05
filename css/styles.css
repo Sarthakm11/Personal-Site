@@ -75,6 +75,8 @@ p {
 .footp {
   margin: 32px auto 0 auto;
   color: #EAF6F6;
+   line-height: 1;
+  font-weight: 400;
 }
 
 .footer-link {
